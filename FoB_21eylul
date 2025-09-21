@@ -1,0 +1,1575 @@
+%----------------------------------------------------------------------------------------
+%    PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass[aspectratio=169,xcolor=dvipsnames]{beamer}
+\usetheme{SimpleDarkBlue}
+
+\usepackage{hyperref}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+%----------------------------------------------------------------------------------------
+%    TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title{From Data to Discovery: How Computational Modeling Enhances Wet-Lab Insights in Cancer}
+\subtitle{\textit{Data-driven models accelerate discovery and make experiments more targeted}}
+
+\author{Leman Nur Nehri, PhD}
+
+\institute
+{
+    Computational Biologist \\ Festival of Biologics
+     % Your institution for the title page
+}
+\date{\ October 2, 2025 } % Date, can be changed to a custom date
+
+%----------------------------------------------------------------------------------------
+%    PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{frame}
+    % Print the title page as the first slide
+    \titlepage
+\end{frame}
+
+\begin{frame}{Overview}
+    % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+    \tableofcontents
+\end{frame}
+
+%------------------------------------------------
+\section{Modeling}
+%------------------------------------------------
+
+\begin{frame}{About Me}
+    \begin{itemize}
+        \item PhD in Biological Sciences (METU, 2025) \textit{\alert{with interdisciplinary background}} 
+    \end{itemize}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}{About Me}
+    \begin{itemize}
+        \item PhD in Biological Sciences (METU, 2025) with interdisciplinary background 
+       \item \textit{\alert{Focus:} Tumor microenvironment dynamics under stress } 
+       
+    \end{itemize}
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{About Me}
+    \begin{itemize}
+        \item PhD in Biological Sciences (METU, 2025) with interdisciplinary background    
+        \item Focus: Tumor microenvironment dynamics under stress 
+        \item \textit{\alert{Expertise:}  Multi-omics integration + computational modeling (Bayesian networks, Markov models)}
+    \end{itemize}
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{About Me}
+    \begin{itemize}
+        \item PhD in Biological Sciences (METU, 2025) with interdisciplinary background    
+        \item Focus: Tumor microenvironment dynamics under stress 
+        \item Expertise: Multi-omics integration + computational modeling (Bayesian networks, Markov models)
+        \item \textit{\alert{Experience:} Academic and industry collaborations}
+    \end{itemize}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Modeling}
+    \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+  \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth} % Left column and width
+        \textbf{Models}
+        \begin{enumerate}
+     \item \textbf{"An artificial construct to designed to respond in the same as the system you would like to understand"}
+     
+\end{enumerate}
+        \column{.55\textwidth} % Right column and width
+         \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{models.png}
+        \caption{{\tiny\textit{Figure 1:Model examples}}}
+        \label{fig:placeholder}
+    \end{figure}
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Modeling}
+    \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+  \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth} % Left column and width
+        \textbf{Models}
+        \begin{enumerate}
+     \item \textit{"An artificial construct to designed to respond in the same as the system you would like to understand"}
+      \item Captures some \textbf{'\textit{useful'} }structures in the world \textbf{but not all.} 
+      
+\end{enumerate}
+        \column{.55\textwidth} % Right column and width
+         \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{models.png}
+        \caption{{\tiny\textit{Figure 1:Model examples}}}
+        \label{fig:placeholder}
+    \end{figure}
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Modeling}
+    \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+  \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth} % Left column and width
+        \textbf{Models}
+        \begin{enumerate}
+     \item \textit{"An artificial construct to designed to respond in the same as the system you would like to understand"}
+      \item Captures some '\textit{useful'} structures in the world but not all. 
+       \item \textbf{"All models are wrong."}
+      
+\end{enumerate}
+        \column{.55\textwidth} % Right column and width
+         \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{models.png}
+        \caption{{\tiny\textit{Figure 1:Model examples}}}
+        \label{fig:placeholder}
+    \end{figure}
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Modeling}
+    \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+  \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth} % Left column and width
+        \textbf{Models}
+        \begin{enumerate}
+     \item \textit{"An artificial construct to designed to respond in the same as the system you would like to understand"}
+      \item Captures some '\textit{useful'} structures in the world but not all. 
+       \item \textit{"All models are wrong."}
+       \item \textbf{Numerical models }replaced \textbf{physcial models }in most areas.  
+\end{enumerate}
+        \column{.55\textwidth} % Right column and width
+         \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{models.png}
+        \caption{{\tiny\textit{Figure 1:Model examples}}}
+        \label{fig:placeholder}
+    \end{figure}
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Why Modeling Matters in Cancer Research}
+\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+  \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth} % Left column and width
+    \begin{itemize}
+             \item \textbf{\alert{Cancer}} =\textbf{ high heterogeneity }+ \textbf{complex regulatory mechanisms}  
+    \end{itemize}
+      \column{.55\textwidth} % Right column and width
+         \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{motivaion_1.png}   
+        \label{fig:placeholder}
+    \end{figure}
+    \end{columns}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{Why Modeling Matters in Cancer Research}
+\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+  \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth} % Left column and width
+    \begin{itemize}
+        \item Cancer = high heterogeneity + complex regulatory mechanisms  
+        \item Experiments are \textbf{costly}, \textbf{limited in scale}
+    \end{itemize}
+      \column{.55\textwidth} % Right column and width
+         \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{motivaion_1 (1).png}
+        \label{fig:placeholder}
+    \end{figure}
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Why Modeling Matters in Cancer Research}
+\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+  \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth} % Left column and width
+    \begin{itemize}
+        \item Cancer = high heterogeneity + complex regulatory mechanisms  
+        \item Experiments are costly, limited in scale
+        \item \textit{\alert{\textbf{Question:}} \textbf{How can we navigate this complexity efficiently?}}
+    \end{itemize}
+      \column{.55\textwidth} % Right column and width
+         \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{motivaion_1 (2).png}
+        \label{fig:placeholder}
+    \end{figure}
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Why Modeling Matters in Cancer Research}
+\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+  \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth} % Left column and width
+    \begin{itemize}
+        \item Cancer = high heterogeneity + complex regulatory mechanisms  
+        \item Experiments are costly, limited in scale
+        \item Question: How can we navigate this complexity efficiently?
+          \item  \textbf{Solution:} Integrating \textbf{multi-omics} data with \textbf{computational modeling}
+    \end{itemize}
+      \column{.55\textwidth} % Right column and width
+         \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{motivaion_1 (4).png}
+        \label{fig:placeholder}
+    \end{figure}
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Why Modeling Matters in Cancer Research}
+\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+  \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth} % Left column and width
+    \begin{itemize}
+        \item Cancer = high heterogeneity + complex regulatory mechanisms  
+        \item Experiments are costly, limited in scale
+        \item Question: How can we navigate this complexity efficiently?
+          \item  Solution: Integrating multi-omics data with computational modeling
+          \item \textbf{Models guide wet-lab experiments through a feedback loop}
+    \end{itemize}
+      \column{.55\textwidth} % Right column and width
+         \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{motivaion_1 (4).png}
+        \label{fig:placeholder}
+    \end{figure}
+    \end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}{Building Models through Wet–Dry Lab Integration}
+\centering
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{flowchart of feedback loops.png}
+    \label{fig:placeholder}
+\end{figure}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{From Data to Computational Predictive Modeling}
+  
+      \centering
+      \includegraphics[width=0.70\linewidth]{Festival of Biologics.png}
+  
+\end{frame}
+
+%------------------------------------------------
+
+\section{Limited-data case study: Wet-lab observations with limited omics support}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Defining the Problem}
+    While different \textbf{cell lines showed variable responses}, \textbf{Caco-2 cells displayed a reversible metastatic-like morphology }under starvation and Bafilomycin treatment (Hüsnügil et al., 2024).
+ \setbeamertemplate{caption}{\insertcaption}
+  \begin{columns}[c]
+    \column{.45\textwidth}
+    \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{figure1. graphical summary of wet-lab observations.png}
+        \caption{{\tiny\textit{Figure 2: Differential responses of cell lines.}}
+        \label{fig:placeholder}}
+    \end{figure}
+    \column{.45\textwidth}
+    \end{columns}
+    %\begin{figure}
+    %\includegraphics[width=0.8\linewidth]{test}
+    %\end{figure}
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{Limited-Data Case Study: Defining the Problem}
+    While different \textbf{cell lines showed variable responses}, \textbf{Caco-2 cells displayed a reversible metastatic-like morphology} under starvation and Bafilomycin treatment (Hüsnügil et al., 2024).
+  \begin{columns}[c]
+  \setbeamertemplate{caption}{\insertcaption}
+    \column{.45\textwidth}
+    \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{figure1. graphical summary of wet-lab observations.png}
+        \caption{{\tiny\textit{Figure 2: Differential responses of cell lines.}}}
+        \label{fig:placeholder}
+    \end{figure}
+    \column{.55\textwidth}
+    \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{Copy of defence.jpg}
+        \caption{{\tiny\textit{Figure 3: Caco-2 showed an elongated shape (wet-lab image).}}
+        \label{fig:placeholder}}
+    \end{figure}
+    \end{columns}
+    %\begin{figure}
+    %\includegraphics[width=0.8\linewidth]{test}
+    %\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}{Limited-Data Case Study: Defining the Problem}
+    Problem formulation to guide model development:
+
+    \begin{block}{Goal}
+        Identifying \textbf{regulatory drivers of the elongated phenotype} in Caco-2 cells
+    \end{block}
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}{Limited-Data Case Study: Defining the Problem}
+    Problem formulation to guide model development:
+
+    \begin{block}{Goal}
+        Identifying regulatory drivers of the elongated phenotype in Caco-2 cells
+    \end{block}
+
+    \begin{alertblock}{Challenge}
+        \textbf{Limited data }— only bulk RNA-seq and wet-lab observations, making regulatory mechanisms hard to resolve
+    \end{alertblock}
+   
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}{Limited-Data Case Study: Defining the Problem}
+    Problem formulation to guide model development:
+
+    \begin{block}{Goal}
+        Identifying regulatory drivers of the elongated phenotype in Caco-2 cells
+    \end{block}
+
+    \begin{alertblock}{Challenge}
+        Limited data — only bulk RNA-seq and wet-lab observations, making regulatory mechanisms hard to resolve
+    \end{alertblock}
+   
+    \setbeamercolor{block title}{fg=white,bg=green!60!black} % Başlık: beyaz yazı, koyu yeşil arka plan
+    \setbeamercolor{block body}{fg=black,bg=green!10}       % Gövde: siyah yazı, açık yeşil arka plan
+    \begin{block}{Need}
+    Models \textbf{integrating wet-lab observations with both in-house and external omics datasets} to reveal regulatory mechanisms
+    \end{block}
+
+
+\end{frame}
+
+
+%------------------------------------------------
+
+\begin{frame}{Limited-Data Case Study: Defining the Problem}
+    Problem formulation to guide model development:
+
+    \begin{block}{Goal}
+        Identifying regulatory drivers of the elongated phenotype in Caco-2 cells
+    \end{block}
+
+    \begin{alertblock}{Challenge}
+        Limited data — only bulk RNA-seq and wet-lab observations, making regulatory mechanisms hard to resolve
+    \end{alertblock}
+   
+    \setbeamercolor{block title}{fg=white,bg=green!60!black} % Başlık: beyaz yazı, koyu yeşil arka plan
+    \setbeamercolor{block body}{fg=black,bg=green!10}       % Gövde: siyah yazı, açık yeşil arka plan
+    \begin{block}{Need}
+    Models integrating wet-lab observations with both in-house and external omics datasets to reveal regulatory mechanisms
+    \end{block}
+
+    \begin{examples}
+        Predicted regulators of elongated Caco-2 morphology, \textbf{testable by Western blot}
+    \end{examples}
+\end{frame}
+
+
+%------------------------------------------------
+
+\begin{frame}{Limited-Data Case Study: Methods}
+Combining \textbf{wet-lab observations} with \textbf{bulk RNA-seq }to identify unknown mechanisms; generated binary differential gene sets for each treatment group:
+  \begin{columns}[c]
+  
+    \end{columns}
+    %\begin{figure}
+    %\includegraphics[width=0.8\linewidth]{test}
+    %\end{figure}
+        
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{Limited-Data Case Study: Methods}
+Combining \textbf{wet-lab observations} with \textbf{bulk RNA-seq} to identify unknown mechanisms; generated binary differential gene sets for each treatment group:
+  \begin{columns}[c]
+  \setbeamertemplate{caption}{\insertcaption}
+    \column{.45\textwidth}
+    \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{Untitled (24).png}
+        \caption{{\tiny\textit{Figure 4: Matrix comparing enriched gene sets within each experimental group.}}}
+        \label{fig:placeholder}
+    \end{figure}
+    \column{.45\textwidth}
+   \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{Untitled (29).png}
+        \caption{{\tiny\textit{Figure 5: Caco-2 showed an elongated shape (dry-lab model).}}}
+        \label{fig:placeholder}
+    \end{figure}
+    \end{columns}
+    %\begin{figure}
+    %\includegraphics[width=0.8\linewidth]{test}
+    %\end{figure}
+        
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{Limited-Data Case Study: Methods}
+Combining \textbf{wet-lab observations} with \textbf{bulk RNA-seq} to identify unknown mechanisms; generated binary differential gene sets for each treatment group:
+  \begin{columns}[c]
+  \setbeamertemplate{caption}{\insertcaption}
+    \column{.55\textwidth}
+    \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{Copy of defence.jpg}
+        \caption{{\tiny\textit{Figure 3: Caco-2 showed an elongated shape (wet-lab image).}}}
+        \label{fig:placeholder}
+    \end{figure}
+    \column{.45\textwidth}
+    \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{Untitled (21).png}
+        \caption{{\tiny\textit{Figure 6: Conceptual framework translating wet-lab observations into model-ready inputs.}}}
+        \label{fig:placeholder}
+    \end{figure}
+    \end{columns}
+    %\begin{figure}
+    %\includegraphics[width=0.8\linewidth]{test}
+    %\end{figure}
+        
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Data Analysis and Bioinformatics}
+    \begin{enumerate}
+       
+  \item \textbf{Binary DE on bulk RNA-seq (per treatment)}
+ 
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Data Analysis and Bioinformatics}
+    \begin{enumerate}
+       
+  \item Binary DE on bulk RNA-seq (per treatment)
+  \textbf{\item Integrated external omics (proteomics, scRNA-seq, mCRC bulk)}
+  
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Data Analysis and Bioinformatics}
+    \begin{enumerate}
+       
+  \item Binary DE on bulk RNA-seq (per treatment)
+  \item Integrated external omics (proteomics, scRNA-seq, mCRC bulk)
+  \textbf{\item Curated pathway sets for regulator discovery}
+  
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Data Analysis and Bioinformatics}
+    \begin{enumerate}
+       
+  \item Binary DE on bulk RNA-seq (per treatment)
+  \item Integrated external omics (proteomics, scRNA-seq, mCRC bulk)
+  \item Curated pathway sets for regulator discovery
+  \textbf{\item Processed in-house bulk; filtered and mapped to sets}
+  
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Data Analysis and Bioinformatics}
+    \begin{enumerate}
+       
+  \item Binary DE on bulk RNA-seq (per treatment)
+  \item Integrated external omics (proteomics, scRNA-seq, mCRC bulk)
+  \item Curated pathway sets for regulator discovery
+  \item Processed in-house bulk; filtered and mapped to sets
+  \textbf{\item Ran the enrichment pipeline across all omics}
+  
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Data Analysis and Bioinformatics}
+    \begin{enumerate}
+       
+  \item Binary DE on bulk RNA-seq (per treatment)
+  \item Integrated external omics (proteomics, scRNA-seq, mCRC bulk)
+  \item Curated pathway sets for regulator discovery
+  \item Processed in-house bulk; filtered and mapped to sets
+  \item Ran the enrichment pipeline across all omics
+  \item \textbf{PPI network analysis; pathway/co-regulation annotation}
+ 
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Data Analysis and Bioinformatics}
+    \begin{enumerate}
+       
+  \item Binary DE on bulk RNA-seq (per treatment)
+  \item Integrated external omics (proteomics, scRNA-seq, mCRC bulk)
+  \item Curated pathway sets for regulator discovery
+  \item Processed in-house bulk; filtered and mapped to sets
+  \item Ran the enrichment pipeline across all omics
+  \item PPI network analysis; pathway/co-regulation annotation
+ \textbf{ \item Pathway activity scoring across groups}
+  
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Data Analysis and Bioinformatics}
+    \begin{enumerate}
+       
+  \item Binary DE on bulk RNA-seq (per treatment)
+  \item Integrated external omics (proteomics, scRNA-seq, mCRC bulk)
+  \item Curated pathway sets for regulator discovery
+  \item Processed in-house bulk; filtered and mapped to sets
+  \item Ran the enrichment pipeline across all omics
+  \item PPI network analysis; pathway/co-regulation annotation
+  \item Pathway activity scoring across groups
+  \item \textbf{Synergy algorithms for combined-treatment effects}
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Results / Data Analysis and Bioinformatics}
+    \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+  \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth} % Left column and width
+        \textbf{Key Findings}
+        \begin{enumerate}
+     \item Identified regulators of \textbf{apoptosis, mitochondrial stress, and lipid metabolism} under \textbf{nutrient restriction and lysosomal alkalization treatment} (ND+Baf),
+   
+\end{enumerate}
+
+
+        \column{.45\textwidth} % Right column and width
+         \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{output (2).png}
+        \caption{{\tiny\textit{Figure 7: Dry Lab: Group-wise comparison of core apoptosis regulators.}}}
+        \label{fig:placeholder}
+    \end{figure}
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Results / Data Analysis and Bioinformatics}
+    \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+  \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth} % Left column and width
+        \textbf{Key Findings}
+        \begin{enumerate}
+     \item Identified regulators of apoptosis, mitochondrial stress, and lipid metabolism under ND+Baf,
+    \item Scoring results across treatment groups \textbf{validated by wet-lab assays }(PARP cleavage, PINK1, lipid droplets),
+   
+\end{enumerate}
+
+
+        \column{.45\textwidth} % Right column and width
+       \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{parp.png}
+        \caption{{\tiny\textit{Figure 8: Wet Lab: Western blot results show the accumulation of apoptotic signaling via PARP cleavage under different conditions. Increased PARP cleavage is indicative of apoptosis. However, under the ND+Baf condition, although PARP cleavage was elevated, the cells remained viable. Beta actin was used as the loading control.}}}
+        \label{fig:placeholder}
+    \end{figure}
+
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Results / Data Analysis and Bioinformatics}
+    \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+  \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth} % Left column and width
+        \textbf{Key Findings}
+        \begin{enumerate}
+     \item Identified regulators of apoptosis, mitochondrial stress, and lipid metabolism under ND+Baf ,
+    \item Scoring results across treatment groups validated by wet-lab assays (PARP cleavage, PINK1, lipid droplets),
+    \item \textbf{\alert{Fact:} Dry-lab} analyses revealed \textbf{synergistic treatment effects} and \textbf{guided experimental validation},
+   
+\end{enumerate}
+        \column{.45\textwidth} % Right column and width
+          \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{figure_3_PPIs down_quadrant.jpg}
+        \caption{{\tiny\textit{Figure 9: Group-wise Cartesian comparison of differentially regulated core protein pathways.}}}
+        \label{fig:placeholder}
+    \end{figure}
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Detecting Core Proteins}
+\centering
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{protein_1.png}
+    \label{fig:placeholder}
+\end{figure}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Detecting Core Proteins}
+\centering
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{protein_1 (1).png}
+    \label{fig:placeholder}
+\end{figure}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Detecting Core Proteins}
+\centering
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{protein_1 (3).png}
+    \label{fig:placeholder}
+\end{figure}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Detecting Core Proteins}
+\centering
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{protein_1 (4).png}
+    \label{fig:placeholder}
+\end{figure}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Results / Data Analysis and Bioinformatics}
+    \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+  \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth} % Left column and width
+        \textbf{Key Findings}
+        \begin{enumerate}
+     \item Identified regulators of apoptosis, mitochondrial stress, and lipid metabolism under ND+Baf ,
+    \item Scoring results across treatment groups validated by wet-lab assays (PARP cleavage, PINK1, lipid droplets),
+    \item \textbf{\alert{Fact:} Dry-lab} analyses revealed \textbf{synergistic treatment effects} and \textbf{guided experimental validation},
+   
+\end{enumerate}
+        \column{.45\textwidth} % Right column and width
+          \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{figure_3_PPIs down_quadrant.jpg}
+        \caption{{\tiny\textit{Figure 9: Group-wise Cartesian comparison of differentially regulated core protein pathways.}}}
+        \label{fig:placeholder}
+    \end{figure}
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Results / Data Analysis and Bioinformatics}
+    \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+  \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth} % Left column and width
+        \textbf{Key Findings}
+        \begin{enumerate}
+     \item Identified regulators of apoptosis, mitochondrial stress, and lipid metabolism under ND+Baf ,
+    \item Scoring results across treatment groups validated by wet-lab assays (PARP cleavage, PINK1, lipid droplets),
+    \item \alert{Fact:}Dry-lab analyses revealed synergistic treatment effects and guided experimental validation,
+    \item Designed \textbf{next-step experiments} for \textbf{pathway-specific testing}.
+\end{enumerate}
+
+        \column{.45\textwidth} % Right column and width
+        \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{vaculin.png}
+        \caption{{\tiny \textit{Figure 10: Wet Lab: Quantification of the percentage of cells containing protrusions indicates that BafA1 significantly increases protrusion formation, whereas co-treatment with Vacuolin-1 reduces this effect in a dose-dependent manner (*p < 0.05, ***p < 0.001, ns = not significant).}}}
+        \label{fig:placeholder}
+    \end{figure}
+
+    \end{columns}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{Workflow}
+\centering
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{flowchart of feedback loops.png}
+    \label{fig:placeholder}
+\end{figure}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Modeling Approaches}
+    \begin{enumerate}
+        \item Modeled \textbf{cell viability dynamics} \textit{over time }using mathematical functions,
+       
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Modeling Approaches}
+    \begin{enumerate}
+        \item Modeled cell viability dynamics over time using mathematical functions,
+        \item \textbf{Estimated probabilities of different cell fates }with probabilistic models,
+       
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Modeling Approaches}
+    \begin{enumerate}
+        \item Modeled cell viability dynamics over time using mathematical functions,
+        \item Estimated probabilities of different cell fates with probabilistic models,
+        \item \textbf{Simulated continuous processes} with distributions,
+
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Modeling Approaches}
+    \begin{enumerate}
+        \item Modeled cell viability dynamics over time using mathematical functions,
+        \item Estimated probabilities of different cell fates with probabilistic models,
+        \item Simulated continuous processes with distributions,
+        \item Applied \textbf{threshold-based models to capture state transitions},
+ 
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Modeling Approaches}
+    \begin{enumerate}
+        \item Modeled cell viability dynamics over time using mathematical functions,
+        \item Estimated probabilities of different cell fates with probabilistic models,
+        \item Simulated continuous processes with distributions,
+        \item Applied threshold-based models to capture state transitions,
+        \item Evaluated \textbf{timing of critical decisions} using cumulative distribution functions,
+
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Modeling Approaches}
+    \begin{enumerate}
+        \item Modeled cell viability dynamics over time using mathematical functions,
+        \item Estimated probabilities of different cell fates with probabilistic models,
+        \item Simulated continuous processes with distributions,
+        \item Applied threshold-based models to capture state transitions,
+        \item Evaluated timing of critical decisions using cumulative distribution functions,
+        \item \textbf{Compared simulated vs. expected morphological distributions} with statistical tests,
+  
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Modeling Approaches}
+    \begin{enumerate}
+        \item Modeled cell viability dynamics over time using mathematical functions,
+        \item Estimated probabilities of different cell fates with probabilistic models,
+        \item Simulated continuous processes with distributions,
+        \item Applied threshold-based models to capture state transitions,
+        \item Evaluated timing of critical decisions using cumulative distribution functions,
+        \item Compared simulated vs. expected morphological distributions with statistical tests,
+        \item Used network models \textbf{to analyze state transitions},
+   
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Methods / Modeling Approaches}
+    \begin{enumerate}
+        \item Modeled cell viability dynamics over time using mathematical functions,
+        \item Estimated probabilities of different cell fates with probabilistic models,
+        \item Simulated continuous processes with distributions,
+        \item Applied threshold-based models to capture state transitions,
+        \item Evaluated timing of critical decisions using cumulative distribution functions,
+        \item Compared simulated vs. expected morphological distributions with statistical tests,
+        \item Used network models to analyze state transitions,
+        \item Built \textbf{causal models to integrate multiple factors}.
+    \end{enumerate}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Results / Modeling Approaches}
+    \begin{columns}[c]
+    \setbeamertemplate{caption}{\insertcaption}
+
+        \column{.45\textwidth}
+        \textbf{Key Findings}
+        \begin{enumerate}
+            \item \textbf{Cell states} (elongated, rounded, dead) \textbf{differ significantly across experimental groups} (Poisson, Sigmoid),
+           
+        \end{enumerate}
+
+        \column{.45\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\linewidth]{phenotpic distribution.png}
+            \textit{\caption{\tiny{Figure 11: Phenotypic heterogeneity of Caco-2 cell populations across groups, aligned with wet-lab observations and fitted mathematical distributions.}}}
+            \label{fig:placeholder}
+        \end{figure}
+
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Results / Modeling Approaches}
+    \begin{columns}[c]
+    \setbeamertemplate{caption}{\insertcaption}
+
+        \column{.45\textwidth}
+        \textbf{Key Findings}
+        \begin{enumerate}
+            \item Cell states (elongated, rounded, dead) differ significantly across experimental groups (Poisson, Sigmoid),
+            \item \textbf{Elongated cells show highest molecular variability} (Gamma, Chi-Square, Levene’s test),
+           
+        \end{enumerate}
+
+        \column{.45\textwidth}
+         \begin{figure}
+            \centering
+            \includegraphics[width=\linewidth]{Copy of phenotpic distribution.png}
+            \textit{\caption{\tiny{Figure 12: Intracellular molecular heterogeneity: model built on wet-lab observations, assuming population-level probability distributions a priori.}}}
+            \label{fig:placeholder}
+        \end{figure}
+
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Modeling Molecular Level}
+\setbeamertemplate{caption}{\insertcaption}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.45\linewidth]{graphical abstract.png}
+         \textit{  \caption{\scriptsize Figure 13: Distribution of Lysosomes and Mitochondria. Heterogeneity of lysosomes provides elongation to the metastatic cells. Alkalinized lysosomes provide Ca+ based exocytosis, degradation of ECM and reshaping the membrane; whereas acidic lysosomes provide functional support for degradation of damaged organelles such as ROS-providing mitochondria all along the cytoplasm. Alkalinized lysosomes are located at one edge of the cell membrane, and acidic lysosomes are distributed homogeneously in the cytoplasm. }}
+            \label{fig:placeholder}
+        \end{figure}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Modeling Molecular Level}
+\setbeamertemplate{caption}{\insertcaption}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.45\linewidth]{lizozomal wet lab.png}
+         \textit{  \caption{\scriptsize Figure 13: Distribution of Lysosomes and Mitochondria. Heterogeneity of lysosomes provides elongation to the metastatic cells. Alkalinized lysosomes provide Ca+ based exocytosis, degradation of ECM and reshaping the membrane; whereas acidic lysosomes provide functional support for degradation of damaged organelles such as ROS-providing mitochondria all along the cytoplasm. Alkalinized lysosomes are located at one edge of the cell membrane, and acidic lysosomes are distributed homogeneously in the cytoplasm. }}
+            \label{fig:placeholder}
+        \end{figure}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Results / Modeling Approaches}
+    \begin{columns}[c]
+    \setbeamertemplate{caption}{\insertcaption}
+
+        \column{.45\textwidth}
+        \textbf{Key Findings}
+        \begin{enumerate}
+            \item Cell states (elongated, rounded, dead) differ significantly across experimental groups (Poisson, Sigmoid),
+            \item Elongated cells show highest molecular variability (Gamma, Chi-Square, Levene’s test),
+            \item Elongation decision point \textbf{identified early time widow} (Gamma models),
+            
+        \end{enumerate}
+
+        \column{.45\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\linewidth]{Figure_5_in silico ca+.png}
+            \textit{\caption{\tiny{Figure 14: Models indicate an early commitment to elongated morphology under stress.}}}
+            \label{fig:placeholder}
+        \end{figure}
+
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Results / Modeling Approaches}
+    \begin{columns}[c]
+    \setbeamertemplate{caption}{\insertcaption}
+
+        \column{.45\textwidth}
+        \textbf{Key Findings}
+        \begin{enumerate}
+            \item Cell states (elongated, rounded, dead) differ significantly across experimental groups (Poisson, Sigmoid),
+            \item Elongated cells show highest molecular variability (Gamma, Chi-Square, Levene’s test),
+            \item Elongation decision point identified early time widow (Gamma models),
+            \item Transition probabilities indicated that elongated cells are more stable, with a \textbf{lower likelihood of reverting to rounded morphology} (Gamma models).
+        \end{enumerate}
+
+        \column{.45\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\linewidth]{transition.png}
+         \textit{   \caption{\tiny{Figure 15: Living cell shape transformation probabilities.}}}
+            \label{fig:placeholder}
+        \end{figure}
+
+    \end{columns}
+\end{frame}
+
+
+
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Results / Simulations}
+    \begin{columns}[c]
+    \setbeamertemplate{caption}{\insertcaption}
+        \column{.45\textwidth}
+        \textbf{Key Insights for Designing Future Experiments }
+        \begin{enumerate}
+    \item Markov models \textbf{predict future cell state dynamics under continued treatment},  
+\end{enumerate}
+        \column{.55\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\linewidth]{Untitled (5).png}
+            \textit{\caption{\tiny{Figure 16: Markov model projection of future cell state transitions under continued treatment, illustrating long-term probabilities of survival, elongation, or death.}}}
+            \label{fig:placeholder}
+        \end{figure}
+
+    \end{columns}
+\end{frame}
+
+%------------------------------------------------
+%------------------------------------------------
+% --- SLIDE 1: Simulation I (with Death; PT grows less) ---
+\begin{frame}{Markov Simulations — I (with Death)}
+\begin{columns}[T]
+  \column{0.40\textwidth}
+  \footnotesize
+  \textbf{Setup.} 4-state Markov chain: PT, M, ST, Death (absorbing). \\
+  Transition $P$ as in code; initial $[100,0,0,0]$. \\
+  Growth rates: PT=1, M=0, ST=2, Death=0. Steps=10.
+
+  \medskip
+  \textbf{Key result.}
+  \begin{itemize}\itemsep2pt
+    \item \textbf{Primary tumor grows less} overall; starvation drives loss.
+    \item ST expands (higher growth), Death accumulates via absorption.
+    \item Proportional share of PT declines over time.
+  \end{itemize}
+
+  \medskip
+  \textbf{Outputs.} Proportions, total cells, dead cells.
+
+  \column{0.60\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{firstmarkov.png}\\
+  {\tiny \textit{Figure~17. Proportions over time (Simulation I).}}
+\end{columns}
+\end{frame}
+%------------------------------------------------
+% --- SLIDE 2: Simulation II (enhanced growth; PT grows more but share declines) ---
+\begin{frame}{Markov Simulations — II (enhanced growth)}
+\begin{columns}[T]
+  \column{0.40\textwidth}
+  \footnotesize
+  \textbf{Setup.} Same $P$; initial $[10000,0,0,0]$. \\
+  Growth rates: PT=10, M=0, ST=12, Death=0. Steps=20.
+
+  \medskip
+  \textbf{Key result.}
+  \begin{itemize}\itemsep2pt
+    \item \textbf{Primary tumor cell count increases} (faster growth).
+    \item However, ST grows even faster $\Rightarrow$ \textbf{PT proportion decreases}.
+    \item Death continues to accumulate; total population rises sharply.
+  \end{itemize}
+
+  \medskip
+  \textbf{Outputs.} Proportions, total cells, dead cells.
+
+  \column{0.60\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{secondmarkov.png}\\
+  {\tiny \textit{Figure~18. Proportions over time (Simulation II).}}
+\end{columns}
+\end{frame}
+%------------------------------------------------
+% --- SLIDE 3: Simulation III (long-term; PT grows more but over longer horizon) ---
+\begin{frame}{Markov Simulations — III (long-term)}
+\begin{columns}[T]
+  \column{0.40\textwidth}
+  \footnotesize
+  \textbf{Setup.} Same as Simulation II; Steps=100.
+
+  \medskip
+  \textbf{Key result.}
+  \begin{itemize}\itemsep2pt
+    \item \textbf{Primary tumor continues to grow}, but over a \textbf{longer horizon}.
+    \item ST dominance persists; \textbf{PT proportion remains lower} long-term.
+    \item Death increases monotonically due to absorbing state.
+  \end{itemize}
+
+  \medskip
+  \textbf{Interpretation.} Faster PT growth can raise counts, yet relative burden shifts toward ST/metastatic compartments over time.
+
+  \column{0.60\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{longtermmarkov.png}\\
+  {\tiny \textit{Figure~19. Proportions over time (Simulation III).}}
+\end{columns}
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{Limited-Data Case Study: Results / Simulations}
+    \begin{columns}[c]
+    \setbeamertemplate{caption}{\insertcaption}
+
+        \column{.45\textwidth}
+        \textbf{Key Insights for Designing Future Experiments }
+        \begin{enumerate}
+    \item Markov models predict future cell state dynamics under continued treatment,
+    \item Bayesian networks \textbf{uncover causal links between stress signals and phenotype transitions},
+   
+\end{enumerate}
+
+
+        \column{.55\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\linewidth]{bayesina.png}
+            \textit{\caption{\tiny{Figure 20: Bayesian network of parameters to link causal relationships of survival, elongation, or death.}}}
+            \label{fig:placeholder}
+        \end{figure}
+
+    \end{columns}
+\end{frame}
+%------------------------------------------------
+% --- SLIDE 2: COMPLEX BAYESIAN NETWORK ---
+\begin{frame}{Bayesian Network (Example)}
+\begin{columns}[T]
+  \column{0.35\textwidth}
+  \footnotesize
+  \textbf{Structure.}
+  Starvation $\rightarrow$ ROS, Lipid Oxidation;\;
+  Lysosomal Alkalinization $\rightarrow$ Ca$^{2+}$ Signaling;\;
+  Ca$^{2+}$, ROS, Lipid Oxidation $\rightarrow$ Cell Phenotype.
+
+  \medskip
+ 
+
+  \textbf{Queries.}
+  \[
+    P(CP\mid S{=}1,L{=}1), \qquad
+    P(CP\mid S{=}1,L{=}0)
+  \]
+  Compare phenotype distributions across evidence settings.
+
+  \medskip
+  \textbf{Diagnostics.}
+  Print edges \& CPDs; visualize $P(CP\mid \cdot)$ as a heatmap.
+ \textbf{Factorization.}
+  \[
+  \begin{aligned}
+    P(&S,L,ROS,LO,Ca,CP)=
+    P(S)\,P(L)\,P(ROS\mid S)\,P(LO\mid S)\\
+    &\times P(Ca\mid L)\,P(CP\mid Ca,ROS,LO)
+  \end{aligned}
+  \]
+  \column{0.52\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{Figure6_bayesian CPT.png}\\
+  
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{Limited-Data Case Study: Results / Simulations}
+    \begin{columns}[c]
+    \setbeamertemplate{caption}{\insertcaption}
+
+        \column{.45\textwidth}
+        \textbf{Key Insights for Designing Future Experiments }
+        \begin{enumerate}
+    \item Markov models predict future cell state dynamics under continued treatment,
+    \item Bayesian networks uncover causal links between stress signals and phenotype transitions,
+   
+\end{enumerate}
+
+
+        \column{.45\textwidth}
+         \item \textbf{\alert{Lesson:} }\textbf{Simulations provide testable hypotheses, guiding the design of new experiments}.
+
+    \end{columns}
+    
+\end{frame}
+
+%------------------------------------------------
+
+\section{Data-rich case study: TME modeling using multi-omics data}
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Translational Problem}
+    In this case, we have access to \textbf{large-scale omics datasets }\textit{(scRNA-seq, proteomics, bulk RNA-seq)} derived from patient samples. 
+    The goal is to identify epithelial \textbf{cell–specific regulatory programs} and determine h\textbf{ow these influence immune cell composition in the TME} \textit{(e.g., M1–M2 macrophage transition)}, 
+    \textit{in collaboration with Team EIT, BioMed X.}
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Defining the Problem}
+    Problem formulation to guide model development:
+
+    \begin{block}{Focus}
+        Colorectal cancer \textbf{heterogeneity} and \textbf{tumor–immune interactions}
+    \end{block}
+
+ 
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Defining the Problem}
+    Problem formulation to guide model development:
+
+    \begin{block}{Focus}
+        Colorectal cancer heterogeneity and tumor–immune interactions
+    \end{block}
+
+    \begin{alertblock}{Key question}
+        How do \textbf{regulatory changes in epithelial cells} drive \textbf{patient-specific immune landscapes} in the TME?
+    \end{alertblock}
+   
+ 
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Defining the Problem}
+    Problem formulation to guide model development:
+
+    \begin{block}{Focus}
+        Colorectal cancer heterogeneity and tumor–immune interactions
+    \end{block}
+
+    \begin{alertblock}{Key question}
+        How do regulatory changes in epithelial cells drive patient-specific immune landscapes in the TME?
+    \end{alertblock}
+   
+    \setbeamercolor{block title}{fg=white,bg=green!60!black}
+    \setbeamercolor{block body}{fg=black,bg=green!10}
+    \begin{block}{Need}
+       Models \textbf{to link }\textbf{epithelial gene expression programs} to \textbf{patient-specific immune composition}
+    \end{block}
+
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Defining the Problem}
+    Problem formulation to guide model development:
+
+    \begin{block}{Focus}
+        Colorectal cancer heterogeneity and tumor–immune interactions
+    \end{block}
+
+    \begin{alertblock}{Key question}
+        How do regulatory changes in epithelial cells drive patient-specific immune landscapes in the TME?
+    \end{alertblock}
+   
+    \setbeamercolor{block title}{fg=white,bg=green!60!black}
+    \setbeamercolor{block body}{fg=black,bg=green!10}
+    \begin{block}{Need}
+       Models to link epithelial gene expression programs to patient-specific immune composition
+    \end{block}
+
+    \begin{examples}
+        Predict how epithelial regulatory differences alter \textbf{macrophage polarization} 
+        \textit{(M1 vs. M2 balance)} \textbf{across patients.}
+    \end{examples}
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Methods / Analysis Pipeline}
+    \begin{enumerate}
+  
+ \item \textbf{Hierarchical clustering on cell-type proportions $\Rightarrow$ immune-high vs epithelial-dominant}
+ 
+    \end{enumerate}
+\end{frame}
+
+
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Methods / Analysis Pipeline}
+    \begin{enumerate}
+  
+  \item Hierarchical clustering on cell-type proportions $\Rightarrow$ immune-high vs epithelial-dominant
+ \textbf{ \item Dimensionality reduction (PCA/UMAP) to visualize/validate separation}
+
+
+    \end{enumerate}
+\end{frame}
+
+
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Methods / Analysis Pipeline}
+    \begin{enumerate}
+  
+  \item Hierarchical clustering on cell-type proportions $\Rightarrow$ immune-high vs epithelial-dominant
+  \item Dimensionality reduction (PCA/UMAP) to visualize/validate separation
+ \textbf{ \item Stats: Welch’s $t$ / Mann–Whitney U for differential cell types}
+ 
+
+    \end{enumerate}
+\end{frame}
+
+
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Methods / Analysis Pipeline}
+    \begin{enumerate}
+  
+  \item Hierarchical clustering on cell-type proportions $\Rightarrow$ immune-high vs epithelial-dominant
+  \item Dimensionality reduction (PCA/UMAP) to visualize/validate separation
+  \item Stats: Welch’s $t$ / Mann–Whitney U for differential cell types
+ \textbf{ \item Correlation analysis among immune and epithelial populations}
+ 
+
+
+    \end{enumerate}
+\end{frame}
+
+
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Methods / Analysis Pipeline}
+    \begin{enumerate}
+  
+  \item Hierarchical clustering on cell-type proportions $\Rightarrow$ immune-high vs epithelial-dominant
+  \item Dimensionality reduction (PCA/UMAP) to visualize/validate separation
+  \item Stats: Welch’s $t$ / Mann–Whitney U for differential cell types
+  \item Correlation analysis among immune and epithelial populations
+  \textbf{\item Filtered reliably expressed genes per cluster}
+  
+
+
+    \end{enumerate}
+\end{frame}
+
+
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Methods / Analysis Pipeline}
+    \begin{enumerate}
+  
+  \item Hierarchical clustering on cell-type proportions $\Rightarrow$ immune-high vs epithelial-dominant
+  \item Dimensionality reduction (PCA/UMAP) to visualize/validate separation
+  \item Stats: Welch’s $t$ / Mann–Whitney U for differential cell types
+  \item Correlation analysis among immune and epithelial populations
+  \item Filtered reliably expressed genes per cluster
+  \textbf{\item Classified genes as cluster-specific vs common (stability-based)}
+ 
+
+
+    \end{enumerate}
+\end{frame}
+
+
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Methods / Analysis Pipeline}
+    \begin{enumerate}
+  
+  \item Hierarchical clustering on cell-type proportions $\Rightarrow$ immune-high vs epithelial-dominant
+  \item Dimensionality reduction (PCA/UMAP) to visualize/validate separation
+  \item Stats: Welch’s $t$ / Mann–Whitney U for differential cell types
+  \item Correlation analysis among immune and epithelial populations
+  \item Filtered reliably expressed genes per cluster
+  \item Classified genes as cluster-specific vs common (stability-based)
+  \textbf{\item Compared expressed-gene counts (Macro, DC, EpiT)}
+
+
+
+    \end{enumerate}
+\end{frame}
+
+
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Methods / Analysis Pipeline}
+    \begin{enumerate}
+  
+  \item Hierarchical clustering on cell-type proportions $\Rightarrow$ immune-high vs epithelial-dominant
+  \item Dimensionality reduction (PCA/UMAP) to visualize/validate separation
+  \item Stats: Welch’s $t$ / Mann–Whitney U for differential cell types
+  \item Correlation analysis among immune and epithelial populations
+  \item Filtered reliably expressed genes per cluster
+  \item Classified genes as cluster-specific vs common (stability-based)
+  \item Compared expressed-gene counts (Macro, DC, EpiT)
+  \item \textbf{Prioritized cluster-specific DE genes for annotation, enrichment, and PPI}
+
+
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Modeling TME}
+
+\setbeamertemplate{caption}{\insertcaption}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.50\linewidth]{cell clustering (1).png}
+         \textit{  \caption{\scriptsize \textbf{Figure 21: }Immune cell composition across clusters. Cells in the central panel show heterogeneous distributions with higher proportions in the immune-rich cluster, although the differences are not statistically significant. By contrast, cells depicted on the left are significantly enriched in the immune-rich cluster, whereas cells on the right are significantly enriched in the immune-poor cluster.
+ }}
+            \label{fig:placeholder}
+        \end{figure}
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{Data-Rich Case Study: Modeling TME}
+
+\setbeamertemplate{caption}{\insertcaption}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.50\linewidth]{cell clustering.png}
+         \textit{  \caption{\scriptsize \textbf{Figure 21: }Immune cell composition across clusters. Cells in the central panel show heterogeneous distributions with higher proportions in the immune-rich cluster, although the differences are not statistically significant. By contrast, cells depicted on the left are significantly enriched in the immune-rich cluster, whereas cells on the right are significantly enriched in the immune-poor cluster.
+ }}
+            \label{fig:placeholder}
+        \end{figure}
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{Functional States of Malignant Epithelial Cells Across TMEs}
+
+\setbeamertemplate{caption}{\insertcaption}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.55\linewidth]{Copy of epit cells parameters (1).png}
+         \textit{  \caption{\scriptsize \textbf{Figure 22:} Malignant epithelial cells show distinct programs depending on TME context. In immune-rich TMEs, they activate unfolded protein response, ER stress, and senescence, while in immune-poor TMEs they rely on FAO/ROS, lipid metabolism, Calcium signaling, GPCR activity, and angiogenesis.
+ }}
+            \label{fig:placeholder}
+        \end{figure}
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{Functional States of Malignant Epithelial Cells Across TMEs}
+
+\setbeamertemplate{caption}{\insertcaption}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.55\linewidth]{Copy of epit cells parameters.png}
+         \textit{  \caption{\scriptsize \textbf{Figure 22:} Malignant epithelial cells show distinct programs depending on TME context. In immune-rich TMEs, they activate unfolded protein response, ER stress, and senescence, while in immune-poor TMEs they rely on FAO/ROS, lipid metabolism, Calcium signaling, GPCR activity, and angiogenesis.
+ }}
+            \label{fig:placeholder}
+        \end{figure}
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{Functional States of Malignant Epithelial Cells Across TMEs}
+
+\setbeamertemplate{caption}{\insertcaption}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.55\linewidth]{Copy of epit cells parameters (2).png}
+         \textit{  \caption{\scriptsize \textbf{Figure 22:} Malignant epithelial cells show distinct programs depending on TME context. In immune-rich TMEs, they activate unfolded protein response, ER stress, and senescence, while in immune-poor TMEs they rely on FAO/ROS, lipid metabolism, Calcium signaling, GPCR activity, and angiogenesis.
+ }}
+            \label{fig:placeholder}
+        \end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}{Bullet Points}
+
+\begin{enumerate}
+   \item \textbf{Multi-omics $\Rightarrow$ testable wet-lab hypotheses (beyond static profiles)}
+  
+    
+\end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Bullet Points}
+
+\begin{enumerate}
+     \item Multi-omics $\Rightarrow$ testable wet-lab hypotheses (beyond static profiles)
+  \item \textbf{Modeling prioritizes key signals; focuses limited wet-lab effort}
+ 
+\end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Bullet Points}
+
+\begin{enumerate}
+   \item Multi-omics $\Rightarrow$ testable wet-lab hypotheses (beyond static profiles)
+  \item Modeling prioritizes key signals; focuses limited wet-lab effort
+  \item \textbf{Context-aware models (cell type varies by tissue/disease/time)}
+  
+    
+\end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Bullet Points}
+\begin{enumerate}
+
+  \item Multi-omics $\Rightarrow$ testable wet-lab hypotheses (beyond static profiles)
+  \item Modeling prioritizes key signals; focuses limited wet-lab effort
+  \item Context-aware models (cell type varies by tissue/disease/time)
+  \textbf{\item Small wet-lab phenotypes $\rightarrow$ feedback to simulations; boosts predictivity}
+\end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Bullet Points}
+
+\begin{enumerate}
+
+  \item Multi-omics $\Rightarrow$ testable wet-lab hypotheses (beyond static profiles)
+  \item Modeling prioritizes key signals; focuses limited wet-lab effort
+  \item Context-aware models (cell type varies by tissue/disease/time)
+  \item Small wet-lab phenotypes $\rightarrow$ feedback to simulations; boosts predictivity
+  \item \textbf{Coordinated dry+wet lab}\textbf{ cuts trial-and-error, accelerates discovery, tailors to the system}
+
+
+\end{enumerate}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{Thank You!}
+ 
+    
+  \textit{\centerline{Thank You! Questions welcome.}}
+  \vspace{0.3cm}
+  \centerline{\footnotesize Leman Nur Nehri, PhD \, | \, Computational Biologist}
+  \centerline{\footnotesize  E-mail: \texttt{lnerkan@gmail.com}}
+  \centerline{\footnotesize  GitHub: \texttt{github.com/lnnehri} \, | \, LinkedIn: \texttt{linkedin.com/in/lemannurnehri}}
+\centerline{\footnotesize Besonderer Dank an Cahit Asaf Nehri, meinen süßen Sohn:) }
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}{References}
+    \footnotesize
+    \bibliography{reference.bib}
+    \bibliographystyle{}
+     \begin{itemize}
+    \item Hüsnügil HH, Güleç Taşkıran AE, Güderer I, Nehri LN, Oral G, Menemenli NŞ, Özcan Ö, Noghreh A, Akyol A, Banerjee S. Lysosomal alkalinization in nutrient restricted cancer cells activates cytoskeletal rearrangement to enhance partial epithelial to mesenchymal transition. Transl Oncol. 2024 Mar;41:101860. doi: 10.1016/j.tranon.2023.101860. Epub 2024 Jan 22. PMID: 38262111; PMCID: PMC10832471.
+    \item Nehri, L. N. (2025). In silico investigation of signaling pathways activated upon nutrient restriction in
+cancer cells [Ph.D. - Doctor of Philosophy]. Middle East Technical University.
+    \item Nehri, L. N., Akincilar, S., & colleagues. (in
+preparation). Integrative tumor microenvironment
+modeling to reveal immune cell profiles in TME.
+Manuscript in preparation with Team EIT, BioMed X
+Institute.
+       \item Pastorino GA, Sheraj I, Huebner K, Ferrero G, Kunze P, Hartmann A, Hampel C, Husnugil HH, Maiuthed A, Gebhart F, Schlattmann F, Gulec Taskiran AE, Oral G, Palmisano R, Pardini B, Naccarati A, Erlenbach-Wuensch K, Banerjee S, Schneider-Stock R. A partial epithelial-mesenchymal transition signature for highly aggressive colorectal cancer cells that survive under nutrient restriction. J Pathol. 2024 Mar;262(3):347-361. doi: 10.1002/path.6240. Epub 2024 Jan 18. PMID: 38235615.
+
+  \end{itemize}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{Additional: Scoring Algorithms}
+\begin{columns}[T]
+  \column{0.58\textwidth}
+  \footnotesize
+  \textbf{Code \& gene sets.} All algorithms: \url{https://github.com/lnnehri/ND-Baf}. 
+  Genes labeled as \emph{inducers}/\emph{suppressors} with DOI-backed literature; gene lists from gene set analysis.
+
+  \medskip
+  \textbf{Normalization (per gene $g$ across samples $s$).}
+  \[
+    \tilde{x}_{g,s}=\frac{x_{g,s}-\min_s x_{g,s}}{\max_s x_{g,s}-\min_s x_{g,s}}
+    \quad\text{(inducers)}
+  \]
+  \[
+    \tilde{x}_{g,s}=1-\frac{x_{g,s}-\min_s x_{g,s}}{\max_s x_{g,s}-\min_s x_{g,s}}
+    \quad\text{(suppressors)}
+  \]
+
+  \textbf{Adjusted score (sample $s$).}
+  \[
+    S_s=\sum_{g\in\mathcal{G}}\tilde{x}_{g,s}
+  \]
+  Higher $S_s$ $\Rightarrow$ stronger pathway activation.
+
+  \medskip
+  \textbf{Classification.} With cohort mean $\bar S$ as threshold: 
+  \[
+  S_s\ge \bar S \Rightarrow \texttt{more mitophagy (red)},\quad
+  S_s<\bar S \Rightarrow \texttt{less mitophagy (blue)}
+  \]
+
+  \column{0.42\textwidth}
+  \centering
+  % Dosya adını kendi görselinle değiştir
+  \includegraphics[width=\linewidth]{output (2).png}
+  \vspace{1mm}
+
+  {\tiny \textit{Figure 23. Adjusted Scores vs mean threshold.}}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{Additional: Synergy Algorithms}
+\begin{columns}[T]
+  \column{0.58\textwidth}
+  \footnotesize
+  \textbf{Code \& data.} Methods and scripts: \url{https://github.com/lnnehri/ND-Baf}. 
+  Genes are pathway-specific and DE (adj.\,p\,$<$\,0.01).
+
+  \medskip
+  \textbf{Notation (per gene $g$).} Let 
+  \(a=f_g(\mathrm{ND})\), \(b=f_g(\mathrm{Baf})\), \(c=f_g(\mathrm{ND{+}BAF})\) (logFC or normalized change). \\
+  Baselines:
+  \[
+    E_{\mathrm{add}}=a+b, \qquad E_{\mathrm{mul}}=a\cdot b
+  \]
+
+  \textbf{Decision rules (synergy vs additive).}
+  \begin{itemize}\itemsep1pt
+    \item \emph{Presence-only:} if only \(c\) exists (or \(a,b\) missing while \(c\) present) $\Rightarrow$ \textbf{synergy}.
+    \item \emph{Upregulated} (\(a>0,b>0\)): synergy if \(c-E_{\mathrm{mul}}>0.4\); suppression if \(c-E_{\mathrm{mul}}<-0.4\).
+    \item \emph{Downregulated} (\(a<0,b<0\)): synergy if \(|c-E_{\mathrm{mul}}|>0.3\).
+    \item \emph{Mixed / non-additive:} synergy if \(c-E_{\mathrm{add}}>0.4\) \textit{or} \(c-\max(a,b)>0.4\); non-additive decrease if \(c-E_{\mathrm{add}}<-0.3\).
+  \end{itemize}
+
+  \medskip
+  \textbf{Classification.} If any synergy rule holds $\Rightarrow$ \texttt{synergistic}; otherwise $\Rightarrow$ \texttt{additive}. 
+  Direction (increase/decrease) and overall trend (up/down) are tagged by logFC.
+
+  \column{0.42\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{synergy.png}
+  \vspace{1mm}
+
+  {\tiny \textit{Figure~ 24. Synergy among significantly altered apoptosis genes across ND, Baf, ND+BAF.}}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+% --- SINGLE SLIDE: Why Poisson → Gamma (Rationale & Mapping) ---
+\begin{frame}{Additional: Why Poisson $\Rightarrow$ Gamma (and how)}
+\scriptsize
+\textbf{Additional: Why Poisson (for 48h window counts)?}
+\begin{itemize}\itemsep1pt
+  \item Phenotypic events (deaths, metastatic transitions) are \emph{counts} in a fixed window; rare and approximately independent.
+  \item Poisson provides interpretable rates $\lambda$ and data-driven probabilities:
+  \[
+    p_{\text{death}}=\mathrm{dpois}(1,\lambda_{\text{death}}),\quad
+    p_{\text{live}}=1-p_{\text{death}},\quad
+    p_{\text{meta}}=\mathrm{dpois}(1,\lambda_{\text{meta}}),\quad
+    p_{\text{round}}=1-p_{\text{meta}}.
+  \]
+  \item Internal consistency: $p_{\text{meta}}p_{\text{live}} + p_{\text{round}}p_{\text{live}} + p_{\text{death}}=1$.
+\end{itemize}
+
+\medskip
+\textbf{Why map Poisson probabilities to Gamma parameters?}
+\begin{itemize}\itemsep1pt
+  \item To link discrete phenotype frequencies to \emph{continuous} accumulation dynamics (Ca/FA) and enable threshold-time analysis via \texttt{pgamma}.
+  \item Use the \textbf{rate} form $X\sim\Gamma(\alpha,\beta)$ (\(\mathbb{E}[X]=\alpha/\beta\)):
+  \[
+    \underbrace{\alpha}_{\text{shape}} \ \leftarrow\ \text{Calcium / metastatic tendency} \ (\approx p_{\text{meta}}),
+    \qquad
+    \underbrace{\beta}_{\text{rate}} \ \leftarrow\ \text{Lipid oxidation / viability} \ (\approx p_{\text{live}}).
+  \]
+  \item Group-specific examples:
+  \[
+  \textcolor{green}{\text{Death}}:(\alpha_d,\beta_d)=(p_{\text{death}},\,p_{\text{death}}),\quad
+  \textcolor{blue}{\text{Rounded}}:(\alpha_r,\beta_r)=(p_{\text{round}},\,p_{\text{live}}),\quad
+  \textcolor{red}{\text{Metastatic}}:(\alpha_m,\beta_m)=(p_{\text{meta}},\,p_{\text{live}}).
+  \]
+\end{itemize}
+
+\medskip
+\textbf{Why Gamma downstream?} Positive, right-skewed, and models \emph{accumulation-to-threshold} (sum of exponential waits). \\
+\textbf{Notes.} Keep a single convention (rate $\beta$; if using scale $\theta$, set $\theta{=}1/\beta$). Normalize very small $p$'s if needed.
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
